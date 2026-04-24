@@ -1,0 +1,3 @@
+Bespoke single-page briefing built for Space Cowboy ADR (Booth SS52, eMerge Americas Miami 2026) in the company's own visual vocabulary: deep-navy background, cyan and amber accents, Space Mono throughout, slash-style section labels, and HUD-framed metrics. The page carries Matt Creamer's pitch body from the fit analysis, anchors the 60/30/10 orchestration frame against the team's four product tracks (hardware, simulation, actuarial, token layer), references the VigilOre 160-hours-to-under-5-minutes case, cites the ICM paper and the Ethics Engine, and resolves to a single Calendly CTA. Eduba branding appears only in the footer attribution and the named case reference.
+
+Line: Intended URL path: /for/space-cowboy-adr

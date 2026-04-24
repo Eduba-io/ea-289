@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Space Cowboy ADR // Orchestration read</title>
+<meta name="description" content="Four products, three people on LinkedIn, and a Q2 simulator launch. A hypothesis about where a team your size loses weeks on context handoff.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="A read on where AI fits in Project SCADR's stack. And where it does not.">
+<meta property="og:description" content="Prepared briefing for Space Cowboy ADR. Orchestration clarity across hardware, simulation, and actuarial tracks.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap">
+</head>
+<body>
+<div data-eduba="banner" style="background:#0a0a0a;color:#f5f5f5;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:0.01em;border-bottom:1px solid #1f1f1f;position:relative;z-index:1000;">
+  <a href="https://eduba.io" target="_blank" rel="noopener" style="color:#f5f5f5;text-decoration:none;font-weight:800;font-size:17px;letter-spacing:-0.02em;line-height:1;">eduba</a>
+  <span style="opacity:0.88;">Prepared by Eduba for Space Cowboy ADR &mdash; Emerge Americas 2026</span>
+</div>
+
+<div class="wrap">
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="logo.png" alt="Space Cowboy ADR" width="180" height="44">
+    </div>
+    <div class="status-line" aria-label="Briefing status: online">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>Briefing Online // Prepared 2026</span>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-meta">
+        <span>Project SCADR</span>
+        <span>eMerge Americas Miami 2026</span>
+      </div>
+      <h1>A read on where AI fits in Project SCADR's stack<span class="period">.</span> And where it does not<span class="period">.</span></h1>
+      <p class="hero-sub">You shipped the Capture and Arrest Mechanism model in 2023. You signed the ATTX flight-software partnership in March 2024. You joined the COSMIC Consortium. Project SCADR Interceptor went public on LinkedIn a few weeks ago. The homepage now runs under a new banner: "The first sovereign Space Economy Operating System." Four product tracks under one roof. Three people carrying them on LinkedIn. A simulator going live in Q2. We read the whole surface before walking over.</p>
+      <a class="hero-cta" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener" aria-label="Book 30 minutes with Matt Creamer">
+        Book 30 Minutes
+        <span class="arrow" aria-hidden="true">&rsaquo;</span>
+      </a>
+      <span class="cta-sub">Bring the ORB Simulator spec and one question about context handoff.</span>
+    </section>
+
+    <section class="pitch" aria-label="Pitch body">
+
+      <div class="pitch-block">
+        <h2>Frame</h2>
+        <p>Most teams at your stage automate the wrong layer. Our working split is <strong>60/30/10</strong>.</p>
+        <div class="frame" role="group" aria-label="Sixty thirty ten orchestration split">
+          <div class="frame-cell">
+            <span class="lbl">Layer 01</span>
+            <span class="pct">60%</span>
+            <p class="desc">Traditional code and documentation. Specs, decision logs, flight-software change notes, advisor call records, regulatory filings.</p>
+          </div>
+          <div class="frame-cell">
+            <span class="lbl">Layer 02</span>
+            <span class="pct">30%</span>
+            <p class="desc">Rule-based logic. Pricing floors, mission constraints, data-sharing rules between USSF Task Force Futures and commercial insurers.</p>
+          </div>
+          <div class="frame-cell accent">
+            <span class="lbl">Layer 03</span>
+            <span class="pct">10%</span>
+            <p class="desc">Where a language model earns its keep. Drafting the audit trail an underwriter will read. Summarizing the Interceptor rendezvous trace into a reviewer sign-off. Translating ORB Simulator output into a USSF decision brief.</p>
+          </div>
+        </div>
+        <p>Spend the first engagement separating the three. Everything downstream gets cheaper.</p>
+      </div>
+
+      <div class="pitch-block">
+        <h2>Case</h2>
+        <p>We ran this play for <strong>VigilOre</strong>, a multi-agent compliance platform working frontier mining operations in the DRC. The pre-engagement state was <span class="metric">160-plus hours</span> of compliance work per review cycle. Post-engagement it runs in <span class="metric">under five minutes</span>, with every decision traceable to a named layer. Same multi-agent problem, different frontier. Structured as a scoped engagement so the operator and the advisor have skin in the same outcome.</p>
+      </div>
+
+      <div class="pitch-block">
+        <h2>Paper</h2>
+        <p>The methodology behind it is published: <strong>Interpretable Context Methodology (ICM)</strong>. A layered filesystem (L0 identity through L4 working artifacts) that a three-person team can maintain without drift. Repo and paper: <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>. Submitted to ACM TiiS.</p>
+        <p>For governance-sensitive customers on the actuarial side, Eduba also ships the <strong>Ethics Engine</strong>, a psychometric assessment tool for evaluating ideological and moral patterns in LLMs. Paper: <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742</a>. Repo: <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine</a>.</p>
+      </div>
+
+      <div class="pitch-block">
+        <h2>Partner Line</h2>
+        <p>Eduba partners with NLP Logix for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists. If the Interceptor flight build needs production pipeline engineering, that side of the house routes cleanly.</p>
+      </div>
+
+      <div class="pitch-block">
+        <h2>Founder Line</h2>
+        <p>Eduba's founder <strong>Jake Van Clief</strong> is a Marine Corps veteran with 8 years in cryptographic systems and F-35/F-18 avionics, an MSc from the University of Edinburgh, and the ICM paper under his name. Eduba has trained <span class="metric">1,500+</span> people across enterprise engagements since May 2025, including work with <strong>KPMG UK, one of the Big Four</strong>. Jake also built an online community to 22,000 members in five weeks.</p>
+      </div>
+
+    </section>
+
+    <section class="cta-card" aria-label="Call to action">
+      <div class="section-label">Next Step // Zero Mils Alignment</div>
+      <h3>30 minutes with Matt Creamer, CRO at Eduba.</h3>
+      <p>Bring the ORB Simulator spec and one question about context handoff. Matt will walk the 60/30/10 split against your four product tracks and flag the first place a context layer would pay for itself.</p>
+      <div class="cta-row">
+        <a class="hero-cta" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener" aria-label="Book 30 minutes with Matt Creamer via Calendly">
+          Book the Call
+          <span class="arrow" aria-hidden="true">&rsaquo;</span>
+        </a>
+        <span class="handle">calendly.com/thecro-eduba/30min</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Prepared by Eduba // <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a> &middot; <a href="https://eduba.io/works" target="_blank" rel="noopener">More case studies</a></span>
+    <span>For Space Cowboy ADR</span>
+  </footer>
+
+</div>
+<footer data-eduba="footer" style="background:#0a0a0a;color:#dcdcdc;padding:36px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:1.6;border-top:1px solid #1f1f1f;margin-top:48px;">
+  <div style="max-width:1040px;margin:0 auto;">
+    <div style="display:flex;flex-wrap:wrap;gap:28px;justify-content:space-between;align-items:flex-start;">
+      <div style="min-width:240px;flex:1;">
+        <div style="margin-bottom:6px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#ffffff;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-0.02em;">eduba</a></div>
+        <div style="opacity:0.85;margin-bottom:4px;">Van Clief Media LLC, dba Eduba</div>
+        <div style="opacity:0.7;">Veteran-owned AI consulting and training firm</div>
+      </div>
+      <div style="min-width:220px;flex:1;">
+        <div style="color:#ffffff;font-weight:600;margin-bottom:2px;">Matt Creamer, CRO</div>
+        <div style="margin-bottom:10px;"><a href="mailto:thecro@eduba.io" style="color:#dcdcdc;text-decoration:underline;">thecro@eduba.io</a></div>
+        <div style="opacity:0.85;">Founder: Jake Van Clief</div>
+      </div>
+      <div style="min-width:180px;flex:1;">
+        <div style="margin-bottom:4px;"><a href="https://eduba.io" target="_blank" rel="noopener" style="color:#dcdcdc;text-decoration:underline;">eduba.io</a></div>
+        <div style="opacity:0.85;">Palm Coast, FL</div>
+      </div>
+    </div>
+    <div style="margin-top:24px;padding-top:16px;border-top:1px solid #1f1f1f;opacity:0.62;font-size:12px;line-height:1.55;">
+      This site was custom-built by Eduba as a conference pitch. It is not affiliated with or operated by Space Cowboy ADR.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
